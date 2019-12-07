@@ -10,7 +10,7 @@ In this project the *SMART Control System* let the user full control on the inte
 
 ## Setting up
 
-From the `.ino` file you can look and customise the input and output pins. Feel free to add as many output pins as you want. Here is the default setting for my Arduino Mega:
+From the `.ino` file you can look and customise the input and output pins. Feel free to add as many output pins as you like. Here is the default setting for my Arduino Mega:
 
 	== PIN SETUP ==
 		
@@ -42,6 +42,7 @@ From the `.ino` file you can look and customise the input and output pins. Feel 
 
 For the breadboard electrical scheme remember to add pull-down resistors to the buttons and to use transistors to control the output lines.
 
+
 ## How does it work?
 
 When you first turn on the Arduino, the message `RGB LED Smart Management` will be displayed on the LCD. After 2 seconds the main menu will be shown and the user can start using the device.
@@ -50,8 +51,19 @@ Quick press `BUTTON 1`  to browse cyclically through the menu items, quick press
 
 Once selected a specific item of the main menu, the respective output value will be displayed (in read-only mode). To enter the *edit-mode* and change the value just press again `BUTTON 2` and  `MOD` will appear in the right bottom corner. Choose the desired value with the potentiometer and confirm it quick pressing `BUTTON 2`. The configuration of other output values can be carried out returning to the main menu (long press `BUTTON 1`).
 
-## Some photos and videos
-
-
+![How It Works](MEDIA/HowItWorksGIF.gif)
 
 Thank you and customize the code as long as you need!
+
+---
+
+## Additional photos
+
+Main image of the system:
+
+![Main Image](MEDIA/MainImage_small.jpg)
+
+
+Arduino Mega board:
+
+![ArduinoBoard](MEDIA/ArduinoBoard_small.jpg)
