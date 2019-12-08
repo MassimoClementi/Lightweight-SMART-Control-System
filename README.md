@@ -4,9 +4,9 @@ by *Massimo Clementi*
 
 ## What is this project about?
 
-This project is a simple and fully customisable stand-alone device which allow the user to control a set of electronic outputs. The development of a compact and optimised system is crucial to exploit at their best the available input devices.
+This project is a simple and fully customisable stand-alone device which allows the user to control a set of electronic outputs. The development of a compact and optimised system is crucial to exploit at their best the available input devices.
 
-In this project the *SMART Control System* let the user full control on the intensity and the hue of the RGB led and make it possible to manage the brightness and the contrast of the LCD display. The device implements a simple and easy-to-customize user interface, with different menus and output values to set.
+In this project the *SMART Control System* lets the user full control on the intensity and the hue of the RGB led and make it possible to manage the brightness and the contrast of the LCD display. The device implements a simple and easy-to-customize user interface, with different menus and output values to set.
 
 ## Setting up
 
